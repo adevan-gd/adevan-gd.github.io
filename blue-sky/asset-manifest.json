@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.daccac64.css",
+    "main.js": "/static/js/main.f59325c3.js",
+    "static/js/787.c7bb7d9f.chunk.js": "/static/js/787.c7bb7d9f.chunk.js",
+    "static/media/Averta-Regular.woff2": "/static/media/Averta-Regular.905328448271e805f650.woff2",
+    "static/media/Averta-Semibold.woff2": "/static/media/Averta-Semibold.8aa357d4aa7912a82f8d.woff2",
+    "static/media/Averta-RegularItalic.woff2": "/static/media/Averta-RegularItalic.1fcab3481c0d2584430f.woff2",
+    "static/media/Averta-SemiboldItalic.woff2": "/static/media/Averta-SemiboldItalic.f12942e8c1c14569acbe.woff2",
+    "static/media/Poppins-Italic.woff2": "/static/media/Poppins-Italic.3a07eab52bc91374d82c.woff2",
+    "static/media/Poppins-SemiBoldItalic.woff2": "/static/media/Poppins-SemiBoldItalic.2c21e04f9a0a997fb25c.woff2",
+    "static/media/Poppins-Regular.woff2": "/static/media/Poppins-Regular.9641d5d087bc9e626d4c.woff2",
+    "static/media/Poppins-SemiBold.woff2": "/static/media/Poppins-SemiBold.b2be0bf638eacbb24415.woff2",
+    "index.html": "/index.html",
+    "main.daccac64.css.map": "/static/css/main.daccac64.css.map",
+    "main.f59325c3.js.map": "/static/js/main.f59325c3.js.map",
+    "787.c7bb7d9f.chunk.js.map": "/static/js/787.c7bb7d9f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.daccac64.css",
+    "static/js/main.f59325c3.js"
+  ]
+}

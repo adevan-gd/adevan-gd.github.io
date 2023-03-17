@@ -1,0 +1,34 @@
+{
+    "programCode": "gbr",
+    "productCode": "40002",
+    "applicationId": "10001",
+    "resourcePath": "/blue-sky/resources/",
+    "branding": {
+        "tokenPath": "/branding",
+        "mediaPath": "/media/"
+    },
+    "localePath": "/localization",
+    "flags": [],
+    "defaultFeature": "board",
+    "featureConfig": {
+        "board": {
+            "moduleSrc": "/blue-sky/modules/demo-module/moduleEntry.js",
+            "title": "Board",
+            "route": "/board",
+            "moduleName": "uiModuleTemplate",
+            "subModuleName": "KanbanBoardModule"
+        },
+        "layout": {
+            "moduleSrc": "/blue-sky/modules/demo-module/moduleEntry.js",
+            "moduleName": "uiModuleTemplate",
+            "subModuleName": "AppLayoutModule"
+        },
+        "game": {
+            "moduleSrc": "/blue-sky/modules/demo-module/moduleEntry.js",
+            "title": "Game",
+            "route": "/game",
+            "moduleName": "uiModuleTemplate",
+            "subModuleName": "GameModule"
+        }
+     }
+}

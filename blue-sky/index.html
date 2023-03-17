@@ -1,0 +1,50 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#000000"><meta name="description" content="Web site created using create-react-app"><script>/* eslint-disable no-undef */
+(function indexRuntime(resourcePaths) {
+    console.log(resourcePaths);
+    // const { hostname } = window.location;
+    // const env = 'prod';
+    const cdnDomain = '/blue-sky/'; // 'https://envPlaceHolder-cdn.go2bankonline.com/app/';
+
+    // if (hostname === 'localhost') {
+    //     env = 'dev';
+    // }
+    //
+    // if (
+    //     hostname.includes('go2bankonline') ||
+    //     (hostname.includes('rapidwages') && hostname.includes('-'))
+    // ) {
+    //     [env] = hostname.split('-');
+    // }
+    //
+    // cdnDomain = cdnDomain.replace('envPlaceHolder', env);
+    console.log('cdnDOmain', cdnDomain);
+
+    const scripts = [];
+    const styles = [];
+    resourcePaths.forEach((curValue) => {
+        if (curValue.includes('.js')) {
+            scripts.push(curValue);
+        } else if (curValue.includes('.css')) {
+            styles.push(curValue);
+        }
+    });
+
+    console.log('scripts, styles', scripts, styles);
+    styles.forEach((styleLink) => {
+        const absLink = cdnDomain + styleLink;
+
+        const link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = absLink;
+        document.head.appendChild(link);
+    });
+
+    scripts.forEach((scriptSrc) => {
+        const absLink = cdnDomain + scriptSrc;
+
+        const script = document.createElement('script');
+        script.src = absLink;
+        document.head.appendChild(script);
+    });
+})(["static/js/main.f59325c3.js","static/css/main.daccac64.css"]);
+</script></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root" class="blue-sky-app-root"></div></body></html>
